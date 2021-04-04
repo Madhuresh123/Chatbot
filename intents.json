@@ -1,0 +1,73 @@
+{
+"intents":[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hey",
+            "How are you",
+            "Is anyone there?",
+            "Hello",
+            "Good day"
+        ],
+        "responses":[
+            "Hey :)",
+            "Hello, thanks for visiting",
+            "Hi there, what can I do for you?",
+            "Hi there, how can I help you?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+            "See you later, thanks for visiting",
+            "have a nice day",
+            "Bye! come back again soon."
+
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": [
+            "Happy to help!",
+            "Anytime",
+            "My pleasure"]
+    },
+    {
+        "tag": "items",
+        "patterns": ["which items do you have?", "what kind of items are there?", "what do you sell?"],
+        "responses": [
+            "we sell coffee and tea",
+            "we have coffee and tea"]
+    },
+    {
+        "tag": "payment",
+        "patterns": ["how to pay?", "Do you accept VISA?", "Do you accept mastercard?",
+            "can I pay with paypal"],
+        "responses": [
+            "Yes we accept VISA",
+            "We accept  VISA, mastercard and paypal"," Yes, you can pay with paypal"
+        ]
+    },
+    {
+        "tag": "delivery",
+        "patterns": ["how long it take for delivery?", "how long shipping takes?"],
+        "responses": [
+            "Delivery takes around 2-3 days",
+            "Shipping takes around 2-3 days"
+        ]
+    },
+    {
+        "tag": "funny",
+        "patterns": ["Are you a bot", "tell me a joke",
+            "tell some thing funny"],
+        "responses": [
+            "No! I'm a human ;)",
+            "The biggest joke is you, just see your face in mirror ","many girls are behind you"
+        ]
+    }
+
+]
+}
